@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 100px;
+            background: skyblue;
+
+            display: flex;
+            justify-content: flex-start;
+        }
+        p{
+            min-width: 0;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .photo img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="photo"><img src="../img/1.png" alt=""></div>
+        <p>文本超出显示省略号文本超出显示省略号文本超出显示省略号文本超出显示省略号文本超出显示省略号文本超出显示省略号</p>
+    </div>
+</body>
+</html>
